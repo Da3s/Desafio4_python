@@ -1,12 +1,15 @@
-import sys
+from sys import argv
 from os import system
 
-conversion = [float(sys.argv[i]) for i in range(1, 4)]
-
+# Se almacenan datos en lista conversion
+conversion = [float(argv[i]) for i in range(1, 4)]
 print(conversion)
-pesosChilenos = float(sys.argv[4])
+pesosChilenos = float(argv[4])
 
+
+# Se almacena calculo de conversion en lista conversiones
 conversiones = [pesosChilenos * convierte for convierte in conversion]
+print(conversiones)
 
 system('cls')
 
