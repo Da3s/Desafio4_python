@@ -32,7 +32,7 @@ print(set_palabras)
 #Contando la cantidad de palabras
 cantidad_palabras = len(set_palabras)
 
-
+system('cls')
 
 print(f"El número de caracteres distintos es: {cantidad_caracteres}")
 print(f"El número de palabras distintas es: {cantidad_palabras}")
